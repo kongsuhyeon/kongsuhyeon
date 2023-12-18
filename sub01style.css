@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600;900&display=swap');
+*{margin: 0;
+    text-decoration: none;
+    list-style-type: none;}
+.wrap{width: 100%}
+.box1{
+    background-color: #DF1D37;
+    height: 80px;}
+.sbox1{
+    height: 80px;
+    background-color: #DF1D37;
+    display: flex;
+    justify-content: center;
+    position: relative;}
+.sb1-1{
+    position: absolute;
+    height: 80px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;}
+.sb1-2{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white;
+    font-family: 'noto sans kr';
+    font-size: 20px;
+    font-weight: 300;
+    width: 1100px;
+    padding-left: 200px;
+}
+.box2{
+    height: 3700px;
+    background-color: #f8f8f8;}
+.sbox2{
+    width: 1100px;
+    height: 3700px;
+    margin:0 auto;
+    position: relative;}
+.sb2-1{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 90px;}
+.sb2-2{
+    position: absolute;
+    font-size: 40px;
+    font-family: 'noto sans kr';
+    padding-top: 325px;
+    left: 16px;
+    font-weight: 300;}
+.sb2-3{
+    position: absolute;
+    font-size: 20px;
+    font-family: 'noto sans kr';
+    padding-top: 345px;
+    left: 370px;
+    color: #7A7A7A;
+    font-weight: 200;
+}
+.sb2-4{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 445px;}
+.sb2-5{
+    position: absolute;
+    top: 900px;
+    left: 50%;
+    transform: translate(-50%);
+    font-weight: 200;
+    font-size: 15px;
+    font-family: 'noto sans kr';
+}
+.sb2-6{
+    position: absolute;
+    font-size: 21px;
+    padding-top: 1000px;
+    font-family: 'noto sans kr';
+    font-weight: 200;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.sb2-7{
+    position: absolute;
+    padding-top: 1220px;
+    left: 29px;}
+.sb2-8{
+    position: absolute;
+    padding-top: 1500px;
+    right: 29px;
+}
+.sb2-9{
+    position: absolute;
+    text-align: center;
+    margin-top: 2350px;
+    font-family: 'noto serif kr';
+    font-weight: 600;
+    font-size: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.sb2-10{
+    position: absolute;
+    font-family: 'noto sans kr';
+    font-weight: 200;
+    margin-top: 2550px;
+    font-size: 22px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.sb2-11{
+    position: absolute;
+    margin-top: 2800px;
+
+}
+.box3{
+    height: 80px;
+    background-color: white;}
+.sb3-1{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);}

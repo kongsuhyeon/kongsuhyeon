@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600;900&display=swap');
+*{margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;}
+a:link{color: white;}
+a:visited{color: white;}
+a:hover{color: brown;}
+a:active{color: white;}
+.wrap{width: 100%}
+.box1{
+    background-color: #DF1D37;
+    height: 80px;}
+.sbox1{
+    height: 80px;
+    background-color: #DF1D37;
+    display: flex;
+    justify-content: center;}
+.sb1-1{
+    position: absolute;
+    height: 80px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;}
+.sb1-2{
+    justify-content: center;
+    align-items: center;
+    margin-top: 10.5px;}
+li a{
+    display: block;
+    width: 220px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'noto sans kr';
+    font-size: 20px;
+    font-weight: 300;
+    }
+.box2{
+    background-image: url(img/index1.jpg);
+    height: 920px;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;}
+.box3{
+    background-color: #DF1D37;
+    height: 80px;}
+.sbox3{
+    height: 80px;
+    background-color: #DF1D37;
+    display: flex;
+    justify-content: center;}
+.sb3-1{
+    height: 80px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;}
+.sb3-2{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: white;
+    font-family: 'noto sans kr';
+    font-size: 20px;
+    font-weight: 300;
+}
